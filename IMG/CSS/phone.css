@@ -1,0 +1,94 @@
+/*Navigation*/
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* Home Section */
+#home{
+    height: 410px;
+    padding: 3px 90px;
+}
+#home h1{
+   height:auto;
+}
+#home p{
+    font-size: 15px;
+    /* height:; */
+}
+#home::before{
+    height: 485px;
+}  
+/* Services Section */
+#services{
+    flex-direction: column;
+    height: 850px;
+    /* height:950px; */
+}
+#services .box{
+    padding: 14px;
+    /* margin: 2px 0px; */
+    /* margin-bottom: 20px; */
+}
+/* Food Section */
+#foods{
+    flex-wrap: wrap;
+    margin: 15px;
+    height: 177px;
+}
+#foods .box{
+    padding: 0px;
+    height:33px;
+    margin: auto;
+    border-radius: 4px;
+    /* color:rgb(122, 70, 70);
+    background-color:honeydew; */
+}
+#foods .box p{
+    font-family:"Bree Serif";
+    font-size: 1.3rem;
+    line-height: 0.4;
+    letter-spacing: 0.099em;
+    font-weight: 500;
+    /* height: 223px; */
+    /* font-size: 2rem; */
+    /* width:15px;
+    display:flex;*/
+} 
+#food-container{
+    height:350px;
+}
+/* Client Section */
+#clients{
+    flex-wrap:wrap;
+}
+#client-section{
+    height:300px; 
+}
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+/* #clients img{
+    height: 14px;
+} */
+.clients-item{
+    padding: 6px 8px;
+} 
+/* Contact Us */
+#contact-box form{
+    width: 80%;
+}
+/* utility clas */
+.h-primary{
+    font-size: 33px;
+}
+.btn{
+    font-size:13px;
+    padding: 4px 8px;
+}
